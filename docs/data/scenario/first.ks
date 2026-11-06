@@ -1,26 +1,29 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="今日の運勢"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「明日地球が爆発します」[l][r]
 
-メロスは激怒した。[l][r]
+避ける方法は地球から脱出するしかない。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+あなたの友人はロケットを持っていて水星、金星、火星、木星、土星のどれかに行くしかない。[l][r]
+あなたは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_suisei] →水星 [endlink][r]
+[link target=*tag_kinsei] →金星 [endlink][r]
+[link target=*tag_kasei] →火星 [endlink][r]
+[link target=*tag_mokusei] →木星 [endlink][r]
+[link target=*tag_dosei] →土星 [endlink][r]
+[link target=*tag_akirame] →寝て明日を迎える [endlink][r]
 [s]
 
-*tag_sleep
+*tag_suisei
 
 [cm]
 
@@ -33,7 +36,7 @@
 
 [jump target=*start]
 
-*tag_run
+*tag_kinsei
 
 [bg storage=run.jpg time=500]
 
@@ -44,3 +47,25 @@
 【 GOOD END 】[l][cm]
 
 [jump target=*start]
+
+*tag_kasei
+
+
+
+*tag_mokusei
+
+
+
+*tag_dosei
+
+
+
+
+*tag_akirame
+[bg storage=sleep.jpg time=500]
+あなたは気絶していて次に起きたのは明後日だった。[l][r]
+[r]
+まさか死ななかったのだ。[l][r]
+[r]
+誤報を流した人は死刑判決されて死んだのであった。[cm]
+
